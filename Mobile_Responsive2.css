@@ -64,3 +64,14 @@ body {
         width: 5rem;
     }
 }
+
+
+@media only screen and (max-width: 511px) and (min-width: 411px) {
+footer {
+    margin-top: -4rem;
+    height: 7rem;
+}
+footer h3 {
+    width: auto;
+}
+}
