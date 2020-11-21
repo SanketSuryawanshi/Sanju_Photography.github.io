@@ -49,3 +49,9 @@
         background-color: black;
     }
 }
+@media screen and (max-width: 511px) and (min-width: 411px){
+ .rimage{ 
+     top: 130%;
+     right: 7%;
+    }
+}
