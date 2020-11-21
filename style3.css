@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Patua One', cursive;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top:0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* /////////////// NAVBAR /////////////// */
+
+nav {
+    font-size: 2rem;
+}
+
+header .navbar .navbar-brand {
+    animation: camera 3s linear infinite alternate;
+}
+
+.navbar{
+    background-color: rgba(243,30,30,0.7);
+    height: 7rem;
+}
+
+@keyframes camera {
+    0% {
+        transform: rotate(3deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+header .navbar .navbar-brand h1 {
+    color: #000000;
+}
+
+header .navbar .navbar-brand:hover {
+    color: orange;
+}
+
+nav ul li a {
+    color: #FEE715FF;
+}
+
+nav ul .active a {
+    color: orange;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.AboutDev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.AboutDev .content{
+    width: 62rem;
+    text-align: center;
+    margin-top: 10rem;   
+}
+
+.AboutDev .content img{
+    border: 2px solid black;
+}
+
+.AboutDev .content h2{
+    margin-top: 3rem;
+    letter-spacing: 1px;
+}
+
+.AboutDev .content h3{
+    margin-top: 3rem;
+}
+
+.limage{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.rimage{
+    position: absolute;
+    top: 30%;
+    right: 2%;
+}
+
+.rimage img{
+    width: 400px;
+}
+
+
+footer{
+    background-color: #343a40;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 18rem;
+    width: 100vw;
+    height: 5rem;
+    text-align: center;
+}
+footer h3{
+    padding-top: 1.5rem;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .limage {
+        position: absolute;
+        top: 26%;
+        left: 21%;
+    }
+    .rimage {
+        position: absolute;
+        top: 150%;
+        right: 0%;
+    }
+    .rimage img {
+        width: 330px;
+    }
+    .AboutDev .content {
+        width: 62rem;
+        text-align: center;
+        margin-top: 44rem;
+    }
+    footer {
+        background-color: #181717ad;
+        color: white;
+        margin-bottom: 0px;
+        margin-top: 38rem;
+        width: 100vw;
+        height: 7rem;
+        text-align: center;
+    }
+    .container-fluid .navbar .navbar-brand .logo{
+        width: 13rem;
+    }
+    header .navbar .navbar-brand h1 {
+        color: #FEE715FF !important;
+    }
+    .navbar-toggler{
+            background-color: white;
+            background-color: white;
+            position: absolute;
+            margin-left: 30rem;
+    }
+    .navbar-toggler-icon {
+        position: fixed;
+        background-color: black;
+    }
+}

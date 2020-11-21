@@ -1,0 +1,151 @@
+@media only screen and (max-width: 768px) {
+    .header_content {
+        margin-top: 3rem;
+        padding: 3rem;
+        height: auto;
+    }
+    header .navbar .navbar-brand h1 {
+        color: #FEE715FF !important;
+    }
+    .navbar-toggler {
+        background-color: white;
+        position: sticky;
+        margin-left: -2rem;
+        font-size: 1rem !important;
+    }
+    .navbar-toggler-icon {
+        background-color: black;
+    }
+    .intro1 {
+        margin-top: 5rem;
+    }
+    .intro .intro1 h1 {
+        font-size: 2.9rem;
+    }
+    .intro .intro1 h2 {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+    .header_content button {
+        width: 25rem;
+        padding-left: 1rem;
+        margin-left: 2rem;
+        border-radius: 1.5rem;
+        font-size: 1.5rem;
+        margin-top: 10rem;
+    }
+    #About h1 {
+        margin: 5rem;
+        font-size: 2.5rem;
+    }
+    .About1 h2 {
+        font-size: 1.4rem;
+    }
+    .abt::after {
+        width: 15rem;
+        left: 30%;
+    }
+    .About1 {
+        text-align: center !important;
+        padding: 3rem;
+        margin-top: 2rem;
+        border-radius: 25px;
+        margin: 2rem 2rem;
+    }
+    #Service h1 {
+        margin: 5rem;
+        font-size: 2.5rem;
+    }
+    .Services::after {
+        width: 15rem;
+        left: 30%;
+    }
+    #Service .service_img {
+        height: 40rem !important;
+        /* padding-left: 1rem; */
+    }
+    .services_div h1 {
+        margin: 3rem !important;
+        font-size: 2.5rem !important;
+    }
+    .ser_div {
+        margin-top: 4rem;
+    }
+    .second_service {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .WhyChoose h1 {
+        margin: 5rem;
+        font-size: 3rem;
+    }
+    .WhyChoose::after {
+        width: 25rem;
+        left: 20%;
+    }
+    .section-4 .chimg h1 {
+        font-size: 4rem;
+        padding: 2rem;
+    }
+    .section-4 .choose .Cost {
+        margin-top: 13rem;
+        margin-bottom: 10rem;
+    }
+    .section-4 .choose .perfect {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+    .section-4 .choose .efficient {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+    /* //////////////////////////// Reviews ///////////////////////////////// */
+    .section_5 {
+        margin-top: 120rem;
+    }
+    .Reviews::after {
+        left: 9%;
+    }
+    .Reviews h1 {
+        font-size: 2.9rem;
+    }
+    .section_5 .rev .revs {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .section_5 .rev .revs .txtr {
+        padding: 0rem;
+        padding-left: 19rem;
+    }
+    @keyframes animate {
+        0% {
+            transform: translate(0rem);
+        }
+        25% {
+            transform: translate(1.5rem);
+        }
+        50% {
+            transform: translate(1.8rem);
+        }
+        75% {
+            transform: translate(-2rem);
+        }
+        100% {
+            transform: translate(0rem);
+        }
+    }
+    /* /////////// Contacts /////////////////////// */
+    .contacts h1 {
+        margin: 4rem;
+        font-size: 2.5rem;
+    }
+    .contacts::after {
+        left: 8%;
+    }
+    footer .socail {
+        padding-right: 15px;
+    }
+}
+
+/* // margin-top 5rem 10 */
